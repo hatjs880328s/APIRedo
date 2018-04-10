@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562A0BA1207CB59B00D4AFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BA0207CB59B00D4AFF9 /* AppDelegate.swift */; };
+		562A0BA3207CB59B00D4AFF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BA2207CB59B00D4AFF9 /* ViewController.swift */; };
+		562A0BA6207CB59B00D4AFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562A0BA4207CB59B00D4AFF9 /* Main.storyboard */; };
+		562A0BA8207CB59B00D4AFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562A0BA7207CB59B00D4AFF9 /* Assets.xcassets */; };
+		562A0BAB207CB59B00D4AFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562A0BA9207CB59B00D4AFF9 /* LaunchScreen.storyboard */; };
+		562A0BB6207CB59B00D4AFF9 /* APIRedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BB5207CB59B00D4AFF9 /* APIRedoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562A0BB2207CB59B00D4AFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562A0B95207CB59B00D4AFF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562A0B9C207CB59B00D4AFF9;
+			remoteInfo = APIRedo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		562A0B9D207CB59B00D4AFF9 /* APIRedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIRedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562A0BA0207CB59B00D4AFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		562A0BA2207CB59B00D4AFF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		562A0BA5207CB59B00D4AFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562A0BA7207CB59B00D4AFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562A0BAA207CB59B00D4AFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		562A0BAC207CB59B00D4AFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562A0BB1207CB59B00D4AFF9 /* APIRedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIRedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562A0BB5207CB59B00D4AFF9 /* APIRedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRedoTests.swift; sourceTree = "<group>"; };
+		562A0BB7207CB59B00D4AFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562A0B9A207CB59B00D4AFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A0BAE207CB59B00D4AFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562A0B94207CB59B00D4AFF9 = {
+			isa = PBXGroup;
+			children = (
+				562A0B9F207CB59B00D4AFF9 /* APIRedo */,
+				562A0BB4207CB59B00D4AFF9 /* APIRedoTests */,
+				562A0B9E207CB59B00D4AFF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		562A0B9E207CB59B00D4AFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562A0B9D207CB59B00D4AFF9 /* APIRedo.app */,
+				562A0BB1207CB59B00D4AFF9 /* APIRedoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562A0B9F207CB59B00D4AFF9 /* APIRedo */ = {
+			isa = PBXGroup;
+			children = (
+				562A0BA0207CB59B00D4AFF9 /* AppDelegate.swift */,
+				562A0BA2207CB59B00D4AFF9 /* ViewController.swift */,
+				562A0BA4207CB59B00D4AFF9 /* Main.storyboard */,
+				562A0BA7207CB59B00D4AFF9 /* Assets.xcassets */,
+				562A0BA9207CB59B00D4AFF9 /* LaunchScreen.storyboard */,
+				562A0BAC207CB59B00D4AFF9 /* Info.plist */,
+			);
+			path = APIRedo;
+			sourceTree = "<group>";
+		};
+		562A0BB4207CB59B00D4AFF9 /* APIRedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				562A0BB5207CB59B00D4AFF9 /* APIRedoTests.swift */,
+				562A0BB7207CB59B00D4AFF9 /* Info.plist */,
+			);
+			path = APIRedoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562A0B9C207CB59B00D4AFF9 /* APIRedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562A0BBA207CB59B00D4AFF9 /* Build configuration list for PBXNativeTarget "APIRedo" */;
+			buildPhases = (
+				562A0B99207CB59B00D4AFF9 /* Sources */,
+				562A0B9A207CB59B00D4AFF9 /* Frameworks */,
+				562A0B9B207CB59B00D4AFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIRedo;
+			productName = APIRedo;
+			productReference = 562A0B9D207CB59B00D4AFF9 /* APIRedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		562A0BB0207CB59B00D4AFF9 /* APIRedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562A0BBD207CB59B00D4AFF9 /* Build configuration list for PBXNativeTarget "APIRedoTests" */;
+			buildPhases = (
+				562A0BAD207CB59B00D4AFF9 /* Sources */,
+				562A0BAE207CB59B00D4AFF9 /* Frameworks */,
+				562A0BAF207CB59B00D4AFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562A0BB3207CB59B00D4AFF9 /* PBXTargetDependency */,
+			);
+			name = APIRedoTests;
+			productName = APIRedoTests;
+			productReference = 562A0BB1207CB59B00D4AFF9 /* APIRedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562A0B95207CB59B00D4AFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Inspur;
+				TargetAttributes = {
+					562A0B9C207CB59B00D4AFF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					562A0BB0207CB59B00D4AFF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 562A0B9C207CB59B00D4AFF9;
+					};
+				};
+			};
+			buildConfigurationList = 562A0B98207CB59B00D4AFF9 /* Build configuration list for PBXProject "APIRedo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562A0B94207CB59B00D4AFF9;
+			productRefGroup = 562A0B9E207CB59B00D4AFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562A0B9C207CB59B00D4AFF9 /* APIRedo */,
+				562A0BB0207CB59B00D4AFF9 /* APIRedoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562A0B9B207CB59B00D4AFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A0BAB207CB59B00D4AFF9 /* LaunchScreen.storyboard in Resources */,
+				562A0BA8207CB59B00D4AFF9 /* Assets.xcassets in Resources */,
+				562A0BA6207CB59B00D4AFF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A0BAF207CB59B00D4AFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562A0B99207CB59B00D4AFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A0BA3207CB59B00D4AFF9 /* ViewController.swift in Sources */,
+				562A0BA1207CB59B00D4AFF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562A0BAD207CB59B00D4AFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562A0BB6207CB59B00D4AFF9 /* APIRedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562A0BB3207CB59B00D4AFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562A0B9C207CB59B00D4AFF9 /* APIRedo */;
+			targetProxy = 562A0BB2207CB59B00D4AFF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		562A0BA4207CB59B00D4AFF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562A0BA5207CB59B00D4AFF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		562A0BA9207CB59B00D4AFF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562A0BAA207CB59B00D4AFF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562A0BB8207CB59B00D4AFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		562A0BB9207CB59B00D4AFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		562A0BBB207CB59B00D4AFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P466F9M6G6;
+				INFOPLIST_FILE = APIRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Inspur.APIRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		562A0BBC207CB59B00D4AFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P466F9M6G6;
+				INFOPLIST_FILE = APIRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Inspur.APIRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		562A0BBE207CB59B00D4AFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P466F9M6G6;
+				INFOPLIST_FILE = APIRedoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Inspur.APIRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APIRedo.app/APIRedo";
+			};
+			name = Debug;
+		};
+		562A0BBF207CB59B00D4AFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P466F9M6G6;
+				INFOPLIST_FILE = APIRedoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Inspur.APIRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APIRedo.app/APIRedo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562A0B98207CB59B00D4AFF9 /* Build configuration list for PBXProject "APIRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562A0BB8207CB59B00D4AFF9 /* Debug */,
+				562A0BB9207CB59B00D4AFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562A0BBA207CB59B00D4AFF9 /* Build configuration list for PBXNativeTarget "APIRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562A0BBB207CB59B00D4AFF9 /* Debug */,
+				562A0BBC207CB59B00D4AFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562A0BBD207CB59B00D4AFF9 /* Build configuration list for PBXNativeTarget "APIRedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562A0BBE207CB59B00D4AFF9 /* Debug */,
+				562A0BBF207CB59B00D4AFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 562A0B95207CB59B00D4AFF9 /* Project object */;
+}
