@@ -1,0 +1,33 @@
+//
+//  APIFailType.swift
+//  APIRedo
+//
+//  Created by Noah_Shan on 2018/4/11.
+//  Copyright © 2018年 Inspur. All rights reserved.
+//
+
+import Foundation
+
+
+/// APIFailType
+///
+/// - netWorkTimeOut: net work - time out
+/// - noConnection: have no connection(not reachability)
+/// - others: 404|ServerBoom|version-no-matching
+enum APIFailType {
+    case netWorkTimeOut
+    case noConnection
+    case others(reason: APIFailType2Lvl)
+}
+
+
+/// APIFailType2Lvl
+///
+/// - defaultReason: if shouldn't confirm accurately ,then use default
+/// - serverBoom: server boom
+/// - versionNoMatching: api version no matching the remote servers
+enum APIFailType2Lvl: String {
+    case defaultReason
+    case serverBoom
+    case versionNoMatching
+}

@@ -13,6 +13,19 @@
 		562A0BA8207CB59B00D4AFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562A0BA7207CB59B00D4AFF9 /* Assets.xcassets */; };
 		562A0BAB207CB59B00D4AFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562A0BA9207CB59B00D4AFF9 /* LaunchScreen.storyboard */; };
 		562A0BB6207CB59B00D4AFF9 /* APIRedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BB5207CB59B00D4AFF9 /* APIRedoTests.swift */; };
+		562A0BC2207CB75400D4AFF9 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BC1207CB75400D4AFF9 /* APIModel.swift */; };
+		562A0BC4207CB7F400D4AFF9 /* DocumentsFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 562A0BC3207CB7F400D4AFF9 /* DocumentsFile.txt */; };
+		562A0BC6207CBB2600D4AFF9 /* APINetMoniter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BC5207CBB2600D4AFF9 /* APINetMoniter.swift */; };
+		562A0BC8207CBC3400D4AFF9 /* APIRedoCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BC7207CBC3400D4AFF9 /* APIRedoCore.swift */; };
+		56C6377C207D997800E70D99 /* NetWorkBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6377B207D997800E70D99 /* NetWorkBaseViewController.swift */; };
+		56DBE236207DDDA500670773 /* APInterfaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE235207DDDA500670773 /* APInterfaceType.swift */; };
+		56DBE238207DDDC600670773 /* APIFailType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE237207DDDC600670773 /* APIFailType.swift */; };
+		56DBE23A207DF54800670773 /* RedoCoreCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE239207DF54800670773 /* RedoCoreCenter.swift */; };
+		56DBE240207DFAE200670773 /* IIMergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE23C207DFAE200670773 /* IIMergeSort.swift */; };
+		56DBE241207DFAE200670773 /* IITaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE23E207DFAE200670773 /* IITaskModel.swift */; };
+		56DBE242207DFAE200670773 /* IISlinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE23F207DFAE200670773 /* IISlinkManager.swift */; };
+		56DBE244207E053F00670773 /* AOPGCDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE243207E053F00670773 /* AOPGCDExtension.swift */; };
+		56DBE246207E073000670773 /* RedoCoreProgressCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE245207E073000670773 /* RedoCoreProgressCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,20 @@
 		562A0BB1207CB59B00D4AFF9 /* APIRedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIRedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		562A0BB5207CB59B00D4AFF9 /* APIRedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRedoTests.swift; sourceTree = "<group>"; };
 		562A0BB7207CB59B00D4AFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562A0BC1207CB75400D4AFF9 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		562A0BC3207CB7F400D4AFF9 /* DocumentsFile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = DocumentsFile.txt; sourceTree = "<group>"; };
+		562A0BC5207CBB2600D4AFF9 /* APINetMoniter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetMoniter.swift; sourceTree = "<group>"; };
+		562A0BC7207CBC3400D4AFF9 /* APIRedoCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRedoCore.swift; sourceTree = "<group>"; };
+		56C63777207D980100E70D99 /* APIRedo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIRedo-Bridging-Header.h"; sourceTree = "<group>"; };
+		56C6377B207D997800E70D99 /* NetWorkBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkBaseViewController.swift; sourceTree = "<group>"; };
+		56DBE235207DDDA500670773 /* APInterfaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APInterfaceType.swift; sourceTree = "<group>"; };
+		56DBE237207DDDC600670773 /* APIFailType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFailType.swift; sourceTree = "<group>"; };
+		56DBE239207DF54800670773 /* RedoCoreCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedoCoreCenter.swift; sourceTree = "<group>"; };
+		56DBE23C207DFAE200670773 /* IIMergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IIMergeSort.swift; sourceTree = "<group>"; };
+		56DBE23E207DFAE200670773 /* IITaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IITaskModel.swift; sourceTree = "<group>"; };
+		56DBE23F207DFAE200670773 /* IISlinkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IISlinkManager.swift; sourceTree = "<group>"; };
+		56DBE243207E053F00670773 /* AOPGCDExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AOPGCDExtension.swift; sourceTree = "<group>"; };
+		56DBE245207E073000670773 /* RedoCoreProgressCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedoCoreProgressCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +86,9 @@
 		562A0B94207CB59B00D4AFF9 = {
 			isa = PBXGroup;
 			children = (
+				56DBE23B207DFAE200670773 /* IIMergeSort */,
+				56DBE23D207DFAE200670773 /* IIRQueue */,
+				562A0BC0207CB6C200D4AFF9 /* APIRedoCore */,
 				562A0B9F207CB59B00D4AFF9 /* APIRedo */,
 				562A0BB4207CB59B00D4AFF9 /* APIRedoTests */,
 				562A0B9E207CB59B00D4AFF9 /* Products */,
@@ -83,6 +113,7 @@
 				562A0BA7207CB59B00D4AFF9 /* Assets.xcassets */,
 				562A0BA9207CB59B00D4AFF9 /* LaunchScreen.storyboard */,
 				562A0BAC207CB59B00D4AFF9 /* Info.plist */,
+				56C63777207D980100E70D99 /* APIRedo-Bridging-Header.h */,
 			);
 			path = APIRedo;
 			sourceTree = "<group>";
@@ -94,6 +125,40 @@
 				562A0BB7207CB59B00D4AFF9 /* Info.plist */,
 			);
 			path = APIRedoTests;
+			sourceTree = "<group>";
+		};
+		562A0BC0207CB6C200D4AFF9 /* APIRedoCore */ = {
+			isa = PBXGroup;
+			children = (
+				562A0BC3207CB7F400D4AFF9 /* DocumentsFile.txt */,
+				56DBE235207DDDA500670773 /* APInterfaceType.swift */,
+				56DBE237207DDDC600670773 /* APIFailType.swift */,
+				562A0BC1207CB75400D4AFF9 /* APIModel.swift */,
+				562A0BC5207CBB2600D4AFF9 /* APINetMoniter.swift */,
+				562A0BC7207CBC3400D4AFF9 /* APIRedoCore.swift */,
+				56DBE239207DF54800670773 /* RedoCoreCenter.swift */,
+				56DBE245207E073000670773 /* RedoCoreProgressCenter.swift */,
+				56C6377B207D997800E70D99 /* NetWorkBaseViewController.swift */,
+			);
+			path = APIRedoCore;
+			sourceTree = "<group>";
+		};
+		56DBE23B207DFAE200670773 /* IIMergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				56DBE23C207DFAE200670773 /* IIMergeSort.swift */,
+			);
+			path = IIMergeSort;
+			sourceTree = "<group>";
+		};
+		56DBE23D207DFAE200670773 /* IIRQueue */ = {
+			isa = PBXGroup;
+			children = (
+				56DBE243207E053F00670773 /* AOPGCDExtension.swift */,
+				56DBE23E207DFAE200670773 /* IITaskModel.swift */,
+				56DBE23F207DFAE200670773 /* IISlinkManager.swift */,
+			);
+			path = IIRQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +211,7 @@
 				TargetAttributes = {
 					562A0B9C207CB59B00D4AFF9 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					562A0BB0207CB59B00D4AFF9 = {
@@ -180,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				562A0BAB207CB59B00D4AFF9 /* LaunchScreen.storyboard in Resources */,
+				562A0BC4207CB7F400D4AFF9 /* DocumentsFile.txt in Resources */,
 				562A0BA8207CB59B00D4AFF9 /* Assets.xcassets in Resources */,
 				562A0BA6207CB59B00D4AFF9 /* Main.storyboard in Resources */,
 			);
@@ -199,8 +266,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DBE240207DFAE200670773 /* IIMergeSort.swift in Sources */,
+				56DBE236207DDDA500670773 /* APInterfaceType.swift in Sources */,
+				56DBE244207E053F00670773 /* AOPGCDExtension.swift in Sources */,
+				56C6377C207D997800E70D99 /* NetWorkBaseViewController.swift in Sources */,
+				56DBE246207E073000670773 /* RedoCoreProgressCenter.swift in Sources */,
 				562A0BA3207CB59B00D4AFF9 /* ViewController.swift in Sources */,
+				562A0BC6207CBB2600D4AFF9 /* APINetMoniter.swift in Sources */,
+				56DBE23A207DF54800670773 /* RedoCoreCenter.swift in Sources */,
+				56DBE238207DDDC600670773 /* APIFailType.swift in Sources */,
+				56DBE241207DFAE200670773 /* IITaskModel.swift in Sources */,
+				562A0BC2207CB75400D4AFF9 /* APIModel.swift in Sources */,
+				56DBE242207DFAE200670773 /* IISlinkManager.swift in Sources */,
 				562A0BA1207CB59B00D4AFF9 /* AppDelegate.swift in Sources */,
+				562A0BC8207CBC3400D4AFF9 /* APIRedoCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,14 +432,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P466F9M6G6;
 				INFOPLIST_FILE = APIRedo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Inspur.APIRedo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "APIRedo/APIRedo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -368,14 +451,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P466F9M6G6;
 				INFOPLIST_FILE = APIRedo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Inspur.APIRedo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "APIRedo/APIRedo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
