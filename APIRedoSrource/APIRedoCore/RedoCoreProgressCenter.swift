@@ -51,8 +51,6 @@ class RedoCoreProgressCenter: NSObject {
 /// Rule father class
 class RedoRule: NSObject {
     
-    let eachNsecs:Double = 10
-    
     var apiModel:APIModel!
     
     var progressAction:((_ couldRetry:Bool)->Void)!
@@ -69,7 +67,11 @@ class RedoRule: NSObject {
     
     /// observer the network now & retry once now [just san the network]
     func obserNetAndRetryOnce()->Bool {
-        return false
+        let status = NetMoniterCenter.getInstance().getCurrentNetWorkStatus()
+        if status == .notReachability {
+            return false
+        }
+        return true
     }
     
     /// wait for network & retry

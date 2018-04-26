@@ -25,6 +25,13 @@ class APIModel: NSObject {
     /// Just use it progress == function
     fileprivate let createTime: String = Date().description
     
+    var requestParams:[AnyHashable:Any] = [:]
+    
+    /// successAction:- just progress i/o & some without ui
+    var successAction:((_ response: Any)->Void)!
+    
+    var errorAction:((_ error: Any)->Void)!
+    
     private override init() {
         super.init()
     }
@@ -42,11 +49,22 @@ class APIModel: NSObject {
         self.apiConnectFailReason = reasonStr
     }
     
+    public func setParameters(_ params:[AnyHashable:Any]) {
+        self.requestParams = params
+    }
+    
+    public func setSuccessAction(action:@escaping (_ response: Any)->Void) {
+        self.successAction = action
+    }
+    
+    public func setFailAction(action:@escaping (_ error: Any)->Void) {
+        self.errorAction = action
+    }
+    
     deinit {
         //release if not
     }
     
-    /// == function
     static func ==(lhs: APIModel,shs: APIModel)->Bool {
         return lhs.apiType.rawValue + lhs.createTime + lhs.apiStrInfo ==
             shs.apiType.rawValue + shs.createTime + shs.apiStrInfo

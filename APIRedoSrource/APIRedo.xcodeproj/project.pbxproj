@@ -17,6 +17,18 @@
 		562A0BC4207CB7F400D4AFF9 /* DocumentsFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 562A0BC3207CB7F400D4AFF9 /* DocumentsFile.txt */; };
 		562A0BC6207CBB2600D4AFF9 /* APINetMoniter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BC5207CBB2600D4AFF9 /* APINetMoniter.swift */; };
 		562A0BC8207CBC3400D4AFF9 /* APIRedoCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A0BC7207CBC3400D4AFF9 /* APIRedoCore.swift */; };
+		566B50F12091599B0062C6AF /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50D82091599B0062C6AF /* PingFoundation.m */; };
+		566B50F22091599B0062C6AF /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50D92091599B0062C6AF /* PingHelper.m */; };
+		566B50F32091599B0062C6AF /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50DC2091599B0062C6AF /* LocalConnection.m */; };
+		566B50F42091599B0062C6AF /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50E52091599B0062C6AF /* ReachState.m */; };
+		566B50F52091599B0062C6AF /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50E72091599B0062C6AF /* ReachStateUnloaded.m */; };
+		566B50F62091599B0062C6AF /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50E82091599B0062C6AF /* ReachStateUnReachable.m */; };
+		566B50F72091599B0062C6AF /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50E92091599B0062C6AF /* ReachStateWWAN.m */; };
+		566B50F82091599B0062C6AF /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50EB2091599B0062C6AF /* ReachStateLoading.m */; };
+		566B50F92091599B0062C6AF /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50EC2091599B0062C6AF /* FSMEngine.m */; };
+		566B50FA2091599B0062C6AF /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50ED2091599B0062C6AF /* FSMStateUtil.m */; };
+		566B50FB2091599B0062C6AF /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50EE2091599B0062C6AF /* ReachStateWIFI.m */; };
+		566B50FC2091599B0062C6AF /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50EF2091599B0062C6AF /* RealReachability.m */; };
 		56C6377C207D997800E70D99 /* NetWorkBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6377B207D997800E70D99 /* NetWorkBaseViewController.swift */; };
 		56DBE236207DDDA500670773 /* APInterfaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE235207DDDA500670773 /* APInterfaceType.swift */; };
 		56DBE238207DDDC600670773 /* APIFailType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE237207DDDC600670773 /* APIFailType.swift */; };
@@ -53,6 +65,31 @@
 		562A0BC3207CB7F400D4AFF9 /* DocumentsFile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = DocumentsFile.txt; sourceTree = "<group>"; };
 		562A0BC5207CBB2600D4AFF9 /* APINetMoniter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetMoniter.swift; sourceTree = "<group>"; };
 		562A0BC7207CBC3400D4AFF9 /* APIRedoCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRedoCore.swift; sourceTree = "<group>"; };
+		566B50D32091599B0062C6AF /* RealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealReachability.h; sourceTree = "<group>"; };
+		566B50D52091599B0062C6AF /* PingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingFoundation.h; sourceTree = "<group>"; };
+		566B50D62091599B0062C6AF /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
+		566B50D82091599B0062C6AF /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
+		566B50D92091599B0062C6AF /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
+		566B50DB2091599B0062C6AF /* LocalConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalConnection.h; sourceTree = "<group>"; };
+		566B50DC2091599B0062C6AF /* LocalConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalConnection.m; sourceTree = "<group>"; };
+		566B50DE2091599B0062C6AF /* FSMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMDefines.h; sourceTree = "<group>"; };
+		566B50DF2091599B0062C6AF /* ReachStateUnReachable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnReachable.h; sourceTree = "<group>"; };
+		566B50E02091599B0062C6AF /* ReachStateWWAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWWAN.h; sourceTree = "<group>"; };
+		566B50E12091599B0062C6AF /* ReachStateUnloaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnloaded.h; sourceTree = "<group>"; };
+		566B50E22091599B0062C6AF /* FSMStateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMStateUtil.h; sourceTree = "<group>"; };
+		566B50E32091599B0062C6AF /* FSMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMEngine.h; sourceTree = "<group>"; };
+		566B50E42091599B0062C6AF /* ReachStateLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateLoading.h; sourceTree = "<group>"; };
+		566B50E52091599B0062C6AF /* ReachState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachState.m; sourceTree = "<group>"; };
+		566B50E62091599B0062C6AF /* ReachStateWIFI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWIFI.h; sourceTree = "<group>"; };
+		566B50E72091599B0062C6AF /* ReachStateUnloaded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnloaded.m; sourceTree = "<group>"; };
+		566B50E82091599B0062C6AF /* ReachStateUnReachable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnReachable.m; sourceTree = "<group>"; };
+		566B50E92091599B0062C6AF /* ReachStateWWAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWWAN.m; sourceTree = "<group>"; };
+		566B50EA2091599B0062C6AF /* ReachState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachState.h; sourceTree = "<group>"; };
+		566B50EB2091599B0062C6AF /* ReachStateLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateLoading.m; sourceTree = "<group>"; };
+		566B50EC2091599B0062C6AF /* FSMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMEngine.m; sourceTree = "<group>"; };
+		566B50ED2091599B0062C6AF /* FSMStateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMStateUtil.m; sourceTree = "<group>"; };
+		566B50EE2091599B0062C6AF /* ReachStateWIFI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWIFI.m; sourceTree = "<group>"; };
+		566B50EF2091599B0062C6AF /* RealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealReachability.m; sourceTree = "<group>"; };
 		56C63777207D980100E70D99 /* APIRedo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIRedo-Bridging-Header.h"; sourceTree = "<group>"; };
 		56C6377B207D997800E70D99 /* NetWorkBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkBaseViewController.swift; sourceTree = "<group>"; };
 		56DBE235207DDDA500670773 /* APInterfaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APInterfaceType.swift; sourceTree = "<group>"; };
@@ -86,6 +123,7 @@
 		562A0B94207CB59B00D4AFF9 = {
 			isa = PBXGroup;
 			children = (
+				566B50D22091599B0062C6AF /* RealReachability */,
 				56DBE23B207DFAE200670773 /* IIMergeSort */,
 				56DBE23D207DFAE200670773 /* IIRQueue */,
 				562A0BC0207CB6C200D4AFF9 /* APIRedoCore */,
@@ -141,6 +179,62 @@
 				56C6377B207D997800E70D99 /* NetWorkBaseViewController.swift */,
 			);
 			path = APIRedoCore;
+			sourceTree = "<group>";
+		};
+		566B50D22091599B0062C6AF /* RealReachability */ = {
+			isa = PBXGroup;
+			children = (
+				566B50D32091599B0062C6AF /* RealReachability.h */,
+				566B50EF2091599B0062C6AF /* RealReachability.m */,
+				566B50D42091599B0062C6AF /* Ping */,
+				566B50DA2091599B0062C6AF /* Connection */,
+				566B50DD2091599B0062C6AF /* FSM */,
+			);
+			path = RealReachability;
+			sourceTree = "<group>";
+		};
+		566B50D42091599B0062C6AF /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				566B50D52091599B0062C6AF /* PingFoundation.h */,
+				566B50D62091599B0062C6AF /* PingHelper.h */,
+				566B50D82091599B0062C6AF /* PingFoundation.m */,
+				566B50D92091599B0062C6AF /* PingHelper.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		566B50DA2091599B0062C6AF /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				566B50DB2091599B0062C6AF /* LocalConnection.h */,
+				566B50DC2091599B0062C6AF /* LocalConnection.m */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		566B50DD2091599B0062C6AF /* FSM */ = {
+			isa = PBXGroup;
+			children = (
+				566B50DE2091599B0062C6AF /* FSMDefines.h */,
+				566B50DF2091599B0062C6AF /* ReachStateUnReachable.h */,
+				566B50E02091599B0062C6AF /* ReachStateWWAN.h */,
+				566B50E12091599B0062C6AF /* ReachStateUnloaded.h */,
+				566B50E22091599B0062C6AF /* FSMStateUtil.h */,
+				566B50E32091599B0062C6AF /* FSMEngine.h */,
+				566B50E42091599B0062C6AF /* ReachStateLoading.h */,
+				566B50E52091599B0062C6AF /* ReachState.m */,
+				566B50E62091599B0062C6AF /* ReachStateWIFI.h */,
+				566B50E72091599B0062C6AF /* ReachStateUnloaded.m */,
+				566B50E82091599B0062C6AF /* ReachStateUnReachable.m */,
+				566B50E92091599B0062C6AF /* ReachStateWWAN.m */,
+				566B50EA2091599B0062C6AF /* ReachState.h */,
+				566B50EB2091599B0062C6AF /* ReachStateLoading.m */,
+				566B50EC2091599B0062C6AF /* FSMEngine.m */,
+				566B50ED2091599B0062C6AF /* FSMStateUtil.m */,
+				566B50EE2091599B0062C6AF /* ReachStateWIFI.m */,
+			);
+			path = FSM;
 			sourceTree = "<group>";
 		};
 		56DBE23B207DFAE200670773 /* IIMergeSort */ = {
@@ -269,17 +363,29 @@
 				56DBE240207DFAE200670773 /* IIMergeSort.swift in Sources */,
 				56DBE236207DDDA500670773 /* APInterfaceType.swift in Sources */,
 				56DBE244207E053F00670773 /* AOPGCDExtension.swift in Sources */,
+				566B50F52091599B0062C6AF /* ReachStateUnloaded.m in Sources */,
+				566B50FC2091599B0062C6AF /* RealReachability.m in Sources */,
+				566B50F12091599B0062C6AF /* PingFoundation.m in Sources */,
 				56C6377C207D997800E70D99 /* NetWorkBaseViewController.swift in Sources */,
+				566B50F22091599B0062C6AF /* PingHelper.m in Sources */,
 				56DBE246207E073000670773 /* RedoCoreProgressCenter.swift in Sources */,
+				566B50F62091599B0062C6AF /* ReachStateUnReachable.m in Sources */,
 				562A0BA3207CB59B00D4AFF9 /* ViewController.swift in Sources */,
+				566B50FB2091599B0062C6AF /* ReachStateWIFI.m in Sources */,
 				562A0BC6207CBB2600D4AFF9 /* APINetMoniter.swift in Sources */,
+				566B50F42091599B0062C6AF /* ReachState.m in Sources */,
 				56DBE23A207DF54800670773 /* RedoCoreCenter.swift in Sources */,
 				56DBE238207DDDC600670773 /* APIFailType.swift in Sources */,
 				56DBE241207DFAE200670773 /* IITaskModel.swift in Sources */,
 				562A0BC2207CB75400D4AFF9 /* APIModel.swift in Sources */,
+				566B50F82091599B0062C6AF /* ReachStateLoading.m in Sources */,
+				566B50F92091599B0062C6AF /* FSMEngine.m in Sources */,
 				56DBE242207DFAE200670773 /* IISlinkManager.swift in Sources */,
+				566B50F32091599B0062C6AF /* LocalConnection.m in Sources */,
 				562A0BA1207CB59B00D4AFF9 /* AppDelegate.swift in Sources */,
 				562A0BC8207CBC3400D4AFF9 /* APIRedoCore.swift in Sources */,
+				566B50FA2091599B0062C6AF /* FSMStateUtil.m in Sources */,
+				566B50F72091599B0062C6AF /* ReachStateWWAN.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
