@@ -105,10 +105,7 @@ class RedoRuleRealTimeAndTimeOut:RedoRule {
 class RedoRuleRealTimeAndNoNetWork: RedoRule {
     override func progress() {
         if super.obserNetAndRetryOnce() {
-            // invoking [api-request function]
             self.reRequest(with: self.apiModel)
-        }else{
-            // donothing
         }
     }
 }
