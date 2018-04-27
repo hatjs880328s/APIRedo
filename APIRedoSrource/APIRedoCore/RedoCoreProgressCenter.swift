@@ -53,8 +53,6 @@ class RedoRule: NSObject {
     
     var apiModel:APIModel!
     
-    var progressAction:((_ couldRetry:Bool)->Void)!
-    
     init(apiModel: APIModel) {
         super.init()
         self.apiModel = apiModel
@@ -76,12 +74,23 @@ class RedoRule: NSObject {
     
     /// wait for network & retry
     func waitNetworkAndRetry() {
-        
+        self.reRequest(with: apiModel)
     }
     
     /// each N secs retry
     func eachNSecsRetry() {
-        
+        self.reRequest(with: self.apiModel)
+    }
+    
+    // Invoking the api request func , successaction is [self.apimodel.successaction]
+    // success - deleate the api
+    func reRequest(with apiModel: APIModel) {
+//        if success {
+//            let progressIns = RedoCoreCenterProgress()
+//            progressIns.deleateOneapiModel(with: apiModel)
+//        }else{
+//            // donothing..
+//        }
     }
 }
 
@@ -95,8 +104,12 @@ class RedoRuleRealTimeAndTimeOut:RedoRule {
 /// real time & no net work[retry once now - observer the network]
 class RedoRuleRealTimeAndNoNetWork: RedoRule {
     override func progress() {
-        if self.progressAction == nil { return }
-        self.progressAction(super.obserNetAndRetryOnce())
+        if super.obserNetAndRetryOnce() {
+            // invoking [api-request function]
+            self.reRequest(with: self.apiModel)
+        }else{
+            // donothing
+        }
     }
 }
 

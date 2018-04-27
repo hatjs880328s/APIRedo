@@ -34,32 +34,56 @@ class RedoRuleGodfather: NSObject {
         return shareInstance
     }
     
+    /// start service
     public func startService() {
         DispatchQueue.once(taskid: startTaskID) {
-            Timer.scheduledTimer(timeInterval: eachNsecs, target: self, selector: #selector(progressFaildAPIS), userInfo: nil, repeats: true)
+            Timer.scheduledTimer(timeInterval: eachNsecs, target: self, selector: #selector(loopProgressFaildAPIS), userInfo: nil, repeats: true)
             NotificationCenter.default.addObserver(self, selector: #selector(netWorkReach(noti:)), name: NSNotification.Name.APICoreNotification().scanNetWorkReach, object: nil)
             NotificationCenter.default.addObserver(self, selector: #selector(netWorkNotReach(noti:)), name: NSNotification.Name.APICoreNotification().scanNetWorkNotReach, object: nil)
         }
-        
     }
     
-    @objc private func progressFaildAPIS() {
-        
+    /// add ur fail api to redoCenter
+    /// [if apimodel.apitype == realtime : retry at once ; others add to api array]
+    /// - Parameter apiModel: ApiModelIns
+    public func addOneRedoAPI(with apiModel:APIModel) {
+        let progress = RedoCoreCenterProgress()
+        if apiModel.apiType == .realTime {
+            progress.onceProgressTheFailAPI(with: apiModel)
+        }else{
+            progress.addOneRedoAPI(with: apiModel)
+        }
+    }
+}
+
+
+// MARK: -  actions
+extension RedoRuleGodfather {
+    @objc private func loopProgressFaildAPIS() {
+        let task = IITaskModel(taskinfo: { () -> Bool in
+            for eachItem in RedoCoreCenter.getInstance().apiCollection {
+                let progressIns = RedoCoreCenterProgress()
+                progressIns.onceProgressTheFailAPI(with: eachItem)
+            }
+            return true
+        }, taskname: "loopProgresssFaildAPISTask")
+        RedoCoreCenter.getInstance().coreQueue.addTask(task: task)
     }
     
     /// scan net work is success
     @objc private func netWorkReach(noti:Notification) {
-        
+        let task = IITaskModel(taskinfo: { () -> Bool in
+            for eachItem in RedoCoreCenter.getInstance().apiCollection {
+                let progressIns = RedoCoreCenterProgress()
+                progressIns.onceProgressTheFailAPI(with: eachItem)
+            }
+            return true
+        }, taskname: "loopProgresssFaildAPISTaskObnetwork")
+        RedoCoreCenter.getInstance().coreQueue.addTask(task: task)
     }
     
     /// scan net work is fail
     @objc private func netWorkNotReach(noti: Notification) {
         
-    }
-    
-    // add one apimodel [progressAction: just <realtime> & <no net work> shouldn't be nil]
-    func addOneRedoAPI(with apiModel:APIModel,progressAction:((_ couldRetry:Bool)->Void)? = nil) {
-        let progress = RedoCoreCenterProgress()
-        progress.addOneRedoAPI(with: apiModel, progressAction: progressAction)
     }
 }

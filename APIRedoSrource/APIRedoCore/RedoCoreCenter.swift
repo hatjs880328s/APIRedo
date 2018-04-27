@@ -50,12 +50,16 @@ class RedoCoreCenterProgress: NSObject {
             return true
         }, taskname: "redoCoreAddOneApiModel")
         RedoCoreCenter.getInstance().coreQueue.addTask(task: queueTask)
-        
-        self.onceProgressTheFailAPI(with: apiModel,progressAction: progressAction)
+    }
+    
+    /// when api fail - invoke current api-rule progress it
+    public func onceProgressTheFailAPI(with apiModel: APIModel) {
+        let progressIns = RedoCoreProgressCenter().getRealProgressInstance(apiModel: apiModel)
+        progressIns?.progress()
     }
     
     /// deleate one apimodel
-    private func deleateOneapiModel(with apiModel: APIModel) {
+    func deleateOneapiModel(with apiModel: APIModel) {
         let queueTask = IITaskModel(taskinfo: { () -> Bool in
             for i in 0 ... RedoCoreCenter.getInstance().apiCollection.count - 1 {
                 if RedoCoreCenter.getInstance().apiCollection[i] == apiModel {
@@ -72,10 +76,4 @@ class RedoCoreCenterProgress: NSObject {
         
     }
     
-    /// when api fail - first save to arr & invoke current api-rule progress it
-    private func onceProgressTheFailAPI(with apiModel: APIModel,progressAction:((_ couldRetry:Bool)->Void)? = nil) {
-        let progressIns = RedoCoreProgressCenter().getRealProgressInstance(apiModel: apiModel)
-        progressIns?.progressAction = progressAction
-        progressIns?.progress()
-    }
 }

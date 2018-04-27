@@ -29,6 +29,10 @@
 		566B50FA2091599B0062C6AF /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50ED2091599B0062C6AF /* FSMStateUtil.m */; };
 		566B50FB2091599B0062C6AF /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50EE2091599B0062C6AF /* ReachStateWIFI.m */; };
 		566B50FC2091599B0062C6AF /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B50EF2091599B0062C6AF /* RealReachability.m */; };
+		566B5100209190440062C6AF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566B50FE209190440062C6AF /* AddressBook.framework */; };
+		566B5101209190440062C6AF /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566B50FF209190440062C6AF /* AddressBookUI.framework */; };
+		566B510420919BCD0062C6AF /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566B510220919BCD0062C6AF /* Contacts.framework */; };
+		566B510520919BCD0062C6AF /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566B510320919BCD0062C6AF /* ContactsUI.framework */; };
 		56C6377C207D997800E70D99 /* NetWorkBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C6377B207D997800E70D99 /* NetWorkBaseViewController.swift */; };
 		56DBE236207DDDA500670773 /* APInterfaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE235207DDDA500670773 /* APInterfaceType.swift */; };
 		56DBE238207DDDC600670773 /* APIFailType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DBE237207DDDC600670773 /* APIFailType.swift */; };
@@ -90,6 +94,10 @@
 		566B50ED2091599B0062C6AF /* FSMStateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMStateUtil.m; sourceTree = "<group>"; };
 		566B50EE2091599B0062C6AF /* ReachStateWIFI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWIFI.m; sourceTree = "<group>"; };
 		566B50EF2091599B0062C6AF /* RealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealReachability.m; sourceTree = "<group>"; };
+		566B50FE209190440062C6AF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		566B50FF209190440062C6AF /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		566B510220919BCD0062C6AF /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		566B510320919BCD0062C6AF /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 		56C63777207D980100E70D99 /* APIRedo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIRedo-Bridging-Header.h"; sourceTree = "<group>"; };
 		56C6377B207D997800E70D99 /* NetWorkBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkBaseViewController.swift; sourceTree = "<group>"; };
 		56DBE235207DDDA500670773 /* APInterfaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APInterfaceType.swift; sourceTree = "<group>"; };
@@ -107,6 +115,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566B510420919BCD0062C6AF /* Contacts.framework in Frameworks */,
+				566B510520919BCD0062C6AF /* ContactsUI.framework in Frameworks */,
+				566B5100209190440062C6AF /* AddressBook.framework in Frameworks */,
+				566B5101209190440062C6AF /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +142,7 @@
 				562A0B9F207CB59B00D4AFF9 /* APIRedo */,
 				562A0BB4207CB59B00D4AFF9 /* APIRedoTests */,
 				562A0B9E207CB59B00D4AFF9 /* Products */,
+				566B50FD209190440062C6AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +248,17 @@
 				566B50EE2091599B0062C6AF /* ReachStateWIFI.m */,
 			);
 			path = FSM;
+			sourceTree = "<group>";
+		};
+		566B50FD209190440062C6AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				566B510220919BCD0062C6AF /* Contacts.framework */,
+				566B510320919BCD0062C6AF /* ContactsUI.framework */,
+				566B50FE209190440062C6AF /* AddressBook.framework */,
+				566B50FF209190440062C6AF /* AddressBookUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		56DBE23B207DFAE200670773 /* IIMergeSort */ = {
