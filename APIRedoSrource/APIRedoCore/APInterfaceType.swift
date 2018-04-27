@@ -16,8 +16,12 @@ import Foundation
 /// - SHOULD: should retry
 /// - SHOUDNT: shouldn't retry
 enum APInterfaceType: String {
+    // use
     case realTime
+    // use
     case must
+    // no use
     case should
+    // no use
     case shouldnt
 }

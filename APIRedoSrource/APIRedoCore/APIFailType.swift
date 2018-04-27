@@ -15,8 +15,11 @@ import Foundation
 /// - noConnection: have no connection(not reachability)
 /// - others: 404|ServerBoom|version-no-matching
 enum APIFailType {
+    // use
     case netWorkTimeOut
+    // use
     case noConnection
+    // use
     case others(reason: APIFailType2Lvl)
 }
 
@@ -27,7 +30,10 @@ enum APIFailType {
 /// - serverBoom: server boom
 /// - versionNoMatching: api version no matching the remote servers
 enum APIFailType2Lvl: String {
+    // use
     case defaultReason
+    // no use
     case serverBoom
+    // no use
     case versionNoMatching
 }
